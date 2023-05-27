@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login Form</title>
+  <style>
+    /* CSS for the blue line and Venmo text */
+    header {
+      background-color: #007BFF;
+      height: 1inch;
+      display: flex;
+      align-items: center;
+      padding-left: 10px;
+    }
+    h1 {
+      color: #FFFFFF;
+      margin: 0;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Venmo</h1>
+  </header>
+
+  <h2>Login Form</h2>
+  <form action="login.php" method="POST">
+    <div>
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username" required>
+    </div>
+    <div>
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required>
+    </div>
+    <div>
+      <input type="submit" value="Login">
+    </div>
+  </form>
+</body>
+</html>
